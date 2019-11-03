@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c9b424b7d1.js" crossorigin="anonymous"></script>
+    <script src="main.js" async></script>
 </head>
 <html>
     <header>
@@ -23,12 +24,39 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section class="our-mission">
-            <h2>Our Mission</h2>
-            <p>Personal finance is something that is extremely interesting to me. It's a shame that some form of personal finance isn't taught in high schools today. I spend countless hours on the internet watching videos and reading articles, and I'd like to share some of that information with you all. I can't create a service like Mint or Credit Karma in a day, so I decided to focus on what I think is a critical idea that millenials need to think about - retirement. I hope this website allows you to think about other aspects of your personal finances and embarks your journey to a comfortable retirement!</p>
-        </section>
+    
+    <main class="get-started-main">
+        
+        <div class="question question1">
+            <h1>Let's get to know you better!</h1>
+            <h2>What's your name?</h2>
+            <input type="text" id="name" placeholder="Ex. Miguel">
+            <p>Press enter to submit an answer</p>
+        </div>
+
+        <div class="question question2 hide">
+            <h2>How old are you?</h2>
+            <input type="text" id="age" placeholder="Ex. 21">
+        </div>
+
+        <div class="question question3 hide">
+            <h2>What is your income/expected income?</h2>
+            <input type="text" id="income" placeholder="Ex. 70,000">
+        </div>
+
+        <div class="question question4 hide">
+            <h2>How much do you save or plan on saving each month?</h2>
+            <input type="text" id="savings" placeholder="Ex. 1,000">
+            <p>It's amazing how just a little more saving allows you to retire years earlier.</p>
+        </div>
+
+        <div class="question question5 hide">
+            <h2>How much money do you think you'll live on once you retire?</h2>
+            <input type="text" id="lifestyle" placeholder="Ex. 50,000">
+            <p>Usually, your expenses will be much lower once you retire.</p>
+        </div>
     </main>
+    
     <footer>
         <p>&copy; 2019 When Will I Retire?</p>
     </footer>
