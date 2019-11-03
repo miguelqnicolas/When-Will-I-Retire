@@ -188,24 +188,24 @@ footer {
     align-items: center;
 }
 
-.name {
+.question {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.name h1 {
+.question h1 {
     margin-bottom: 2rem;
     color: whitesmoke;
 }
 
-.name h2 {
+.question h2 {
     margin-bottom: 1rem;
     color: whitesmoke;
 }
 
-.name input {
+.question input {
     margin-bottom: 1rem;
     padding: 1rem;
     background: whitesmoke;
@@ -216,25 +216,10 @@ footer {
     outline: none;
 }
 
-.name p {
+.question p {
     color: whitesmoke;
 }
 
-/* .get-started form {
-    color: whitesmoke;
+.hide {
+    display: none;
 }
-
-.get-started form input {
-    background: none;
-    font-size: 1.5rem;
-    color: whitesmoke;
-    border: none;
-}
-
-::placeholder {
-    color: lightslategray;
-}
-
-input:focus {
-    outline:none;
-} */
