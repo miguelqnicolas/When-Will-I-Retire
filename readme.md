@@ -1,1 +1,1 @@
-Deployed here: https://whenwilliretire.tech
+Deployed here: https://app.whenwilliretire.tech
