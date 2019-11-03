@@ -1,1 +1,1 @@
-Currently deployed at: https://whenwilliretire.netlify.com
+Deployed at: https://whenwilliretire.tech
