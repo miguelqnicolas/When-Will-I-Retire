@@ -83,7 +83,7 @@ header {
     font-size: 1rem;
     color: #09091a;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     outline: none;
 }
@@ -222,4 +222,20 @@ footer {
 
 .hide {
     display: none;
+}
+
+.button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: whitesmoke;
+    font-size: 1rem;
+    color: #09091a;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    opacity: 0.75;
 }

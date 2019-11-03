@@ -77,12 +77,20 @@ function output(array) {
 function attachOutputToContainer(argument) {
     const div = document.createElement('div');
         const h2 = document.createElement('h2');
+        const p = document.createElement('p');
+        const a = document.createElement('a');
+            const button = document.createElement('button');
 
     div.classList.add('question');
+    button.classList.add('button');
 
     h2.textContent = argument;
+    p.textContent = 'Play around with the numbers and see how saving a just little more can allow you to retire earlier!';
+    a.href = 'https://whenwilliretire.tech/getstarted.html';
+    button.textContent = 'Start Over';
 
-    div.appendChild(h2);
+    a.appendChild(button);
+    div.append(h2, p, a);
 
     return div;
 };
