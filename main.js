@@ -86,7 +86,7 @@ function attachOutputToContainer(argument) {
 
     h2.textContent = argument;
     p.textContent = 'Play around with the numbers and see how saving a just little more can allow you to retire earlier!';
-    a.href = 'https://whenwilliretire.tech/getstarted.html';
+    a.href = 'https://app.whenwilliretire.tech';
     button.textContent = 'Start Over';
 
     a.appendChild(button);
